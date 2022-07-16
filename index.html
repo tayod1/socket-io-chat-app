@@ -5,39 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat App</title>
+    <link rel="stylesheet" href="styles.css" />
     <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
     <script defer src="script.js"></script>
-    <!-- <style>
-      body {
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-      }
-
-      #message-container {
-        width: 80%;
-        max-width: 1200px;
-      }
-
-      #message-container div {
-        background-color: #ccc;
-        padding: 5px;
-      }
-
-      #message-container div:nth-child(2n) {
-        background-color: #fff;
-        padding: 5px;
-      }
-    </style> -->
   </head>
+
   <body>
     <!-- able to reference later using JS because of ID, all messages that get sent will be populated in div using JS-->
     <div id="message-container"></div>
     <!-- form that submits to our server-->
     <form id="send-container">
       <!-- message input is value from input we type in text field-->
-      <input type="text" id="message-input" />
+      <input type="text" id="message-input" placeholder="Type here..." />
       <button type="submit" id="send-button">Send</button>
     </form>
   </body>

@@ -1,3 +1,5 @@
+//"npm run devStart" to start server using nodemon!
+
 // creates a server on port 3000, allows port 5500 to communicate with the server
 const io = require("socket.io")(3000, { cors: { origin: 5500 } });
 const users = {}; // object to store users
