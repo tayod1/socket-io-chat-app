@@ -1,6 +1,6 @@
-# SocketIO Chat App
+# Objective
 
-**This project was designed to simulate a real-world conversation between two individuals on a messaging application such as Facebook messenger or iMessage. It showcases how communication works between a server and a webpage**
+**This project was designed to simulate a real-time chat app such as Facebook messenger or iMessage. It showcases how communication works between a server and one or more web browsers.**
 
 # Technologies Used
 
@@ -9,3 +9,7 @@
 # Challenges Faced
 
 **This project required some debugging when attempting to connect to the server from my HTML file. I learned that CORS, a HTTP-header based mechanism that allows a server to indicate origins from which a browser should load resources, restricts external ports from communicating unless explicitly allowed. Thankfully, I was able to come up wth a solution swiftly which allowed my webpage to communicate with my server.**
+
+# Example
+
+![](socketio.gif)
