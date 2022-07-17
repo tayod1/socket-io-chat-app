@@ -14,6 +14,6 @@
 
 **I learned how servers communicate with each other, and how to utilize that communication, through my experience with this project. I also gained some valuable experience with NodeJS and npm, as well as got my hands dirty with creating web sockets using Socket.io. Lastly, I implemented some simple CSS knowledge to make the webpage look a bit prettier.**
 
-# Example
+# Demo
 
 ![](socketio.gif)
